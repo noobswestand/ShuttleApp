@@ -1,0 +1,207 @@
+@font-face {
+	font-family: loginThin;
+    src: url(SansationLight.woff);
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+	background-color:#24313c;
+}
+html, body {
+  height: 100%;
+}
+
+#login,#register{
+	display:inline-block;
+	width:49%;
+	color:white;
+	background-color:#435159;
+	transition: all 0.25s ease;
+	text-align:center;
+	height:45px;
+	font-size: 1.5em;
+	float:center;
+	max-width:250px;
+}
+#login:hover,#register:hover{
+	cursor: pointer;
+}
+#login p, #register p{
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: lighter;
+}
+
+input[type="text"],input[type="time"],input[type="password"]{
+	background-color:#24313c;
+	border:1px solid #a0b3b0;
+	width:250px;
+	height:45px;
+	color:white;
+	font-size:1.5em;
+	padding-left: 20px;
+	transition: 0.25s;
+}
+#submitButtonYellow,.submitButtonYellow{
+	background-color:#d1a20a;
+	width:250px;
+	height:45px;
+	color:#fff;
+	border: none;
+	font-family:loginThin;
+	font-size: 1.5em;
+}
+#submitButtonNull{
+	background-color:#435159;
+	width:250px;
+	height:45px;
+	color:#fff;
+	border: none;
+	font-family:loginThin;
+	font-size: 1.5em;
+	margin:auto;
+}
+
+
+
+input[type="submit"],#submitButton,#submitButton2,#createButton,#seeButton,.submitButton{
+	width:250px;
+	height:45px;
+	color:#fff;
+	border: none;
+	background-color:#1ab188;
+	font-family:loginThin;
+	font-size: 1.5em;
+}
+input[type="submit"]:hover,#submitButton,#submitButton2,#createButton,#seeButton{
+	cursor: pointer;
+}
+
+#backButton{
+	width:45px;
+	height:45px;
+	color:#fff;
+	border: none;
+	background-color:#1ab188;
+	font-family:loginThin;
+	font-size: 1.5em;
+	z-index:-9999999;
+}
+
+h1, h2,p{
+	font-family:loginThin;
+	font-weight: bold;
+	color:#fff;
+}
+hr{
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+}
+
+
+.vertical-center {
+  min-height: calc(100% - 75px);  /* Fallback for vh unit */
+
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+  /* Align the bootstrap's container vertically */
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  width: 100%;
+
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+div.hidden {
+    display: none
+}
+.coverup{
+	position: fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:#000;
+	z-index:9999999;
+}
+.list-group-item.active{
+	background-color: #1ab188;
+	border:none;
+}
+.list-group-item{
+	color:#fff;
+	border-radius:0px;
+	background-color:#435159;
+	width:90%;
+	max-width:450px;
+	margin-bottom:15px;
+}
+.list-group-item a{
+	text-decoration: none;
+	color:#fff;
+}
+.list-group-item:hover{
+	cursor:pointer;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+
+.hover:hover{
+	cursor:pointer;
+}
+
+
+
+.checkmark {
+	height: 25px;
+    width: 25px;
+	background-color: #eee;
+}
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}

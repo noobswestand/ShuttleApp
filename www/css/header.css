@@ -1,0 +1,26 @@
+.headerbgimage{
+	background-color:#435159;
+	background-position:center center;
+	background-size:cover;
+	height:75px;
+	text-align:center;
+}
+
+.headerLakeland{
+	height:75px;
+}
+.headerTitle1{
+	color:#fff;
+	display:inline-block;
+	font-size:1em;
+	margin-bottom:0px;
+	margin-top:25px;
+}
+.headerTitle2{
+	font-family:"Arial Black";
+	color:#ffc60c;
+	display:inline-block;
+	font-size:1.5em;
+	margin-bottom:0px;
+	margin-top:25px;
+}

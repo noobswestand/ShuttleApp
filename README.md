@@ -12,6 +12,7 @@ How to setup the database + webserver
 * Create "shuttle" database
 * Run shuttlesql.sql
 * Copy the www directory to your host
+* Open db.php and change your database variables 
 
 #### How to:
 Add new users:
